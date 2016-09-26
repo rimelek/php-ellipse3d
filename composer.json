@@ -1,0 +1,22 @@
+{
+  "name": "rimelek/ellipse3d",
+  "description": "Library to create 3D-like ellipses",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Takács Ákos",
+      "email": "rimelek@rimelek.hu",
+      "homepage": "http://rimelek.hu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rimelek\\Ellipse3D\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-gd": "*"
+  }
+}
